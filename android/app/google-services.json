@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "495370241738",
+    "project_id": "yjskendra",
+    "storage_bucket": "yjskendra.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:495370241738:android:6ca2b10f8694f5a393d633",
+        "android_client_info": {
+          "package_name": "com.example.yjs_kendra"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "495370241738-gmehrrtmf5s321ijm09d9dpslfsfl19m.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.yjs_kendra",
+            "certificate_hash": "e8eed676c65001446578fe262e31a882375d8404"
+          }
+        },
+        {
+          "client_id": "495370241738-h9li4h67rem7r4bgc5ufh0p0u5tpg0st.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC8_K5h7JmOk8sJcAv301awoYGCsMbQKYs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "495370241738-h9li4h67rem7r4bgc5ufh0p0u5tpg0st.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
