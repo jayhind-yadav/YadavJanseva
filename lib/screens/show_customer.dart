@@ -122,7 +122,7 @@ class _ShowCustomerState extends State<ShowCustomer> {
     if (custNumMob.length < 10) {
       try {
         Uri url = Uri.parse(
-            'http://www.sohnagcsc.in/cdata.php?cn=' + custNumMob);
+            'http://www.cscsohnag.in/cdata.php?cn=' + custNumMob);
         http.Response response = await http.get(url);
         data = CustModal.fromJson(jsonDecode(response.body));
       }catch(E){
@@ -131,7 +131,7 @@ class _ShowCustomerState extends State<ShowCustomer> {
     } else {
       try {
         Uri url =
-        Uri.parse('http://www.sohnagcsc.in/clist.php?mobile=' + custNumMob);
+        Uri.parse('https://www.cscsohnag.in/clist.php?mobile=' + custNumMob);
         http.Response response = await http.get(url);
         data = CustModal.fromJson(jsonDecode(response.body));
       }catch(E){
